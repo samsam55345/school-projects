@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StudyUp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Luke Johnson</string>
+    <string name="nav_header_subtitle">joh13687@umn.edu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="upnext">UP NEXT</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_studyspaces">Browse Study Spaces</string>
+    <string name="menu_manage">Manage Groups</string>
+    <string name="menu_create">Create Group</string>
+    <string name="menu_find">Find Group</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="menu_spacelist">Space Finder</string>
+    <string name="study_spaces">Study Spaces</string>
+    <string name="view">View</string>
+    <string name="reservable_rooms">Reservable Rooms</string>
+    <string name="computerpic">computerPic</string>
+    <string name="computer_labs">Computer Labs</string>
+    <string name="roompic">RoomPic</string>
+    <string name="openpic">openPic</string>
+    <string name="open_areas">Open Areas</string>
+    <string name="space">space</string>
+    <string name="this_is_clab">This is Clab</string>
+    <string name="User_Settings">Settings</string>
+    <string name="Friends">Friends</string>
+</resources>

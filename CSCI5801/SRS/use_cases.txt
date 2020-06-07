@@ -1,0 +1,10 @@
+1. Prompt user for type of vote: plurality or STV vote -- Jake
+2. Prompt user for  number of seats to fill -- Jake
+3. Prompt user to enter file names / paths -- Sami
+4. Prompt user if this is a test (i.e. should shuffling be turned off) -- Sami
+5. Run program: -- Allison
+	Post-conditions:
+		- runs voting functionality
+		- saves resultant report to .txt file
+		- displays results summary on screen
+6. Help window for how to use the program - Declan

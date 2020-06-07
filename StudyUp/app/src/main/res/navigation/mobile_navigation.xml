@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.studyup.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.example.studyup.ui.calendar.CalendarFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_studyspaces"
+        android:name="com.example.studyup.ui.studyspaces.StudyspacesFragment"
+        android:label="@string/menu_studyspaces"
+        tools:layout="@layout/fragment_studyspaces" />
+
+    <fragment
+        android:id="@+id/nav_manage"
+        android:name="com.example.studyup.ui.manageGroup.ManageGroupFragment"
+        android:label="@string/menu_manage"
+        tools:layout="@layout/fragment_manage_group" >
+        <action
+            android:id="@+id/action_nav_manage_to_nav_manage_details"
+            app:destination="@id/nav_manage_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_create"
+        android:name="com.example.studyup.ui.createGroup.CreateGroupFragment"
+        android:label="@string/menu_create"
+        tools:layout="@layout/fragment_create" />
+
+    <fragment
+        android:id="@+id/nav_find"
+        android:name="com.example.studyup.ui.find.FindFragment"
+        android:label="@string/menu_find"
+        tools:layout="@layout/fragment_find" />
+    <fragment
+        android:id="@+id/nav_friend"
+        android:name="com.example.studyup.ui.friendViewer.friendFragment"
+        android:label="@string/Friends"
+        tools:layout="@layout/fragment_friends" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.studyup.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_manage_details"
+        android:name="com.example.studyup.ui.manageGroupDetailFragment.ManageGroupDetailFragment"
+        android:label="@string/menu_manage"
+        tools:layout="@layout/manage_group" />
+</navigation>

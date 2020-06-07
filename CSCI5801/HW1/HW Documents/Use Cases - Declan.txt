@@ -1,0 +1,17 @@
+﻿Camper Use Case:
+1. Camper logs onto the system with their given username and password
+2. If password is valid system will grant them access
+3. Camper enters which section they are registering for
+4. System prompts the Camper to select up to 10 classes to rank
+5. Camper cannot give multiple classes the same rank
+6. Camper cannot give classes mutiple ranks
+7. Classes our offered at a first-come biases to Campers
+8. If registered successfully Camper will be given a schedule that will show the time block, the class enrolled in that block, the location of the class, any special instructions for the class, and the instructor’s name.
+9. A camper can be resigned to a different class by Instructor or Camp Director
+
+
+Camp Director Use Case:
+1. Director logs onto the system with their given username and password
+2. Camp director is to perform ranking process
+3. Camp director to lock rankings, all courses to have unique identifier
+4.

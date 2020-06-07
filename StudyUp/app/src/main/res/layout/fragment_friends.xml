@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:id="@+id/cardviewLayout" android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerView"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@id/imageView"
+        android:layout_toRightOf="@id/imageView"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textViewShortDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/imageView"
+        android:layout_toRightOf="@id/imageView" />
+
+
+</LinearLayout>

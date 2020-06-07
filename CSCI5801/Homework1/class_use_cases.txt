@@ -1,0 +1,17 @@
+2. Campers rank classes
+    1. actors - campers
+    2. 1 per person?
+    3. can they update rankings?
+3. log in    // create account
+4. print schedule
+5. lock rankings
+6. manually add classes
+7. manually delete classes
+8. input courses
+9. update course information
+10. view schedules - campers, instructors, admins
+11. analyze stats - admins
+12. view specific class offering information - instructors
+13. campers modify ranking   // assumption
+14. set blocks
+15. set up camp session

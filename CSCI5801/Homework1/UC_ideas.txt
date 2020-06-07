@@ -1,0 +1,26 @@
+Two Use Cases from class:
+1. the screen to allow campers to rank courses
+2. the "build schedule" screen for administrators
+
+3. Screen for instructors to enter courses they will teach -- bullet point 2
+
+4. Ability for the system to assign section numbers to courses for instructors once they've decided the courses they'll teach -- bullet point 2
+
+5. Manual entry / deletion screen for campers classess - bullet point 3
+
+6. Screen for campers to see their finished schedules online -- bullet point 4
+
+7. Printing the schedule from campers' online viewing screen -- bullet point 4
+
+8. Class information input screen -- bullet point 5
+o Should capture the following capabilities / information:
+- class enrollment size
+- adding / removing classes
+- analyze student needs
+- Add class information (day, times, and # seats)
+
+9. Screen for instructors to see an online report of current class list -- bullet point 6
+
+10. Screen for instructors to print current class list -- bullet point 6
+
+11. Screen for instructors to view a camper's schedule online -- bullet point 7 
