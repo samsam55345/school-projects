@@ -1,0 +1,6 @@
+project/build/*
+.DS_store
+docs/html/*
+docs/latex/*
+src/*.o
+.nfs*

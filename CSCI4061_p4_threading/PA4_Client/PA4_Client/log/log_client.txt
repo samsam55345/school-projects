@@ -1,0 +1,45 @@
+PARTITION
+CREATING SERVER ADDR
+0!!
+1
+2
+1
+3
+2
+[1] open connectionsucceed
+1
+[2] open connection
+
+Connection Failed
+4
+3
+[3] open connection
+Connection Failed
+5
+6
+7
+6
+8
+[6] open connection
+Connection Failed
+9
+10
+7
+[7] open connection
+Connection Failed
+5
+[5] open connection
+Connection Failed
+9
+[9] open connection
+Connection Failed
+8
+[8] open connection
+Connection Failed
+10
+[10] open connection
+Connection Failed
+[1] CHECKIN: 0 0
+4
+[4] open connection
+Connection Failed
